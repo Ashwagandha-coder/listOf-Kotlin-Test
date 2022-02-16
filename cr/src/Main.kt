@@ -16,6 +16,10 @@ fun main() {
     println(b.get(0))
     println(b.get(3))
 
+    //getOrNull()
+
+    println(b.getOrNull(10))
+
 
 
 }
