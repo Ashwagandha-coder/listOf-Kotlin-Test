@@ -5,6 +5,7 @@ fun main() {
     var b = listOf("Ivan","Anatolei","Boris","Danil")
 
 
+    // Immutable list
 
     // println in index
 
@@ -19,6 +20,14 @@ fun main() {
     //getOrNull()
 
     println(b.getOrNull(10))
+
+    //subList
+
+    println(b.subList(1, 3))
+
+    //Mutable list
+
+
 
 
 
