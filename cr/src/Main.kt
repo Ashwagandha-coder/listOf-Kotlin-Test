@@ -11,6 +11,8 @@ fun main() {
 
     for (i in b)
         println(i)
+    for (j in a)
+        println(j)
 
     // println in get(index)
 
