@@ -27,7 +27,27 @@ fun main() {
 
     println(b.subList(1, 3))
 
-    //Mutable list
+    //Mutable list and ArrayList
+
+    var x: ArrayList<Int> = arrayListOf(1,2,3,4,5,6,7,8,9)
+
+    var y: MutableList<String> = mutableListOf("Bob","Tom","Alexandro","Maria","Angela")
+
+    // add remove clear
+
+    println(x)
+    println(y)
+
+    x.add(55)
+
+    x.removeAt(3)
+
+    y.clear()
+
+    println(x)
+    println(y)
+
+
 
 
 
