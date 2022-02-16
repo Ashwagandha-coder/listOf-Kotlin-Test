@@ -11,4 +11,11 @@ fun main() {
     for (i in b)
         println(i)
 
+    // println in get(index)
+
+    println(b.get(0))
+    println(b.get(3))
+
+
+
 }
