@@ -4,7 +4,11 @@ fun main() {
 
     var b = listOf("Ivan","Anatolei","Boris","Danil")
 
-    println(a)
-    println(b)
+
+
+    // println in index
+
+    for (i in b)
+        println(i)
 
 }
